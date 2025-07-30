@@ -10,10 +10,27 @@ body{
     padding-bottom: 60px;
 }
 
+body p, body h4{
+    background-color: antiquewhite;
+    border-radius: 0px 20px 20px 0px;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+body h4{
+    background-color: floralwhite;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
 header{
     overflow: clip;
     top: 0;
-    background-color: royalblue;
+    background-color:rgba(202, 229, 222, 0.57);
+    border-radius: 20px 20px 20px 20px;
     background-size: cover;
     margin: auto;
     padding: 20px;
@@ -21,6 +38,8 @@ header{
     align-self: flex-start;
     position: sticky;
     width: fit-content;
+    border-style: solid;
+    border-color: gainsboro;
 }
 header h3{
     margin: auto;
@@ -49,7 +68,8 @@ header h3{
     backdrop-filter: blur();
     border-radius: 20px;
 }
-.quoteBox h3, .quoteBox h4{
+
+.quoteBox h3, .quoteBox h5{
     padding-left: 20px;
     padding-right: 20px;
     font-family: cursive;
@@ -57,6 +77,7 @@ header h3{
 .quoteBox h3{
     text-align: center;
 }
-.quoteBox h4{
+.quoteBox h5{
+    transform: translateY(-10px);
     text-align: right;
 }

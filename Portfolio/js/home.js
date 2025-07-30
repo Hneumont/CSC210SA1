@@ -22,7 +22,7 @@ async function randquote(){
   let randq = list.quotes[(Math.random()*list.quotes.length).toFixed()]
   let inner = `
     <h3>${randq.quote}</h3>
-    <h4>~${randq.author}</h4>
+    <h5><em>~${randq.author}</em></h5>
     `
 
   document.getElementById("quoteBox").innerHTML= inner
