@@ -1,0 +1,62 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    backdrop-filter: grayscale();
+    border-radius: 5px 5px 80px 80px;
+    padding-bottom: 60px;
+}
+
+header{
+    overflow: clip;
+    top: 0;
+    background-color: royalblue;
+    background-size: cover;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    align-self: flex-start;
+    position: sticky;
+    width: fit-content;
+}
+header h3{
+    margin: auto;
+    display: inline;
+    border-color: white;
+    border-style: solid;
+}
+
+.slideshow{
+    padding: 5px;
+    background-color: dimgray;
+    border-style: groove;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.slideshow img{
+    max-height: 720px;
+    max-width: 480px;
+}
+
+.quoteBox{
+    width: fit-content;
+    background-color: rgba(255, 200, 255, 0.4);
+    backdrop-filter: blur();
+    border-radius: 20px;
+}
+.quoteBox h3, .quoteBox h4{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: cursive;
+}
+.quoteBox h3{
+    text-align: center;
+}
+.quoteBox h4{
+    text-align: right;
+}
